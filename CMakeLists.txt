@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(rushhour)
+project(dualDraw)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -17,7 +17,7 @@ if(NOT ftxui_POPULATED)
 endif()
 
 
-# link against serial and protocoll
+# link against serial and protocol
 
 set(serial_source_dir serial/src)
 set(protocol_source_dir protocol/src/protocol)
@@ -82,11 +82,11 @@ else()
 endif()
 
 
-add_executable(rushhour ${sources})
+add_executable(dualDraw ${sources})
 
-target_include_directories(rushhour PRIVATE src serial protocol)
+target_include_directories(dualDraw PRIVATE src serial protocol)
 
-target_link_libraries(rushhour
+target_link_libraries(dualDraw
         PRIVATE ftxui::screen
         PRIVATE ftxui::dom
         PRIVATE ftxui::component

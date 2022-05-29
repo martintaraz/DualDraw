@@ -84,8 +84,8 @@ char *exec(const char *cmd)
     std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
     if (!pipe)
     {
-        loggingHandler(strdup("Popen failed"));
-        return strdup("popen() failed!");
+        loggingHandler("Popen failed");
+        return "popen() failed!";
     }
     while (fgets(buffer.data(), buffer.size(), pipe.get()) != NULL)
     {
@@ -104,7 +104,7 @@ void CrashAnalyzer::addr2line(std::vector<std::string> addresses)
     std::cout << std::endl
               << "===== STACKTRACE BEGIN =====" << std::endl;
 
-    loggingHandler(strdup("===== STACKTRACE BEGIN ====="));
+    loggingHandler("===== STACKTRACE BEGIN =====");
 #ifdef __APPLE__
 #define ADDR2LINE_PATH "~/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-addr2line"
 #define FIRMWARE_PATH "/Users/julio/Documents/Uni/5_Master/HCI_Project_Seminar/dualpantoframework/firmware/.pio/build/esp32dev/firmware.elf"
@@ -112,8 +112,8 @@ void CrashAnalyzer::addr2line(std::vector<std::string> addresses)
 #ifdef ADDR2LINE_PATH
     std::ostringstream command;
     command
-//        << ADDR2LINE_PATH
-//        << " -e " << FIRMWARE_PATH
+        << ADDR2LINE_PATH
+        << " -e " << FIRMWARE_PATH
         << " -fpCis"; // see https://linux.die.net/man/1/addr2line
     for (const auto &address : addresses)
     {
@@ -172,7 +172,7 @@ void CrashAnalyzer::checkOutput()
         }
         out[i] = x;
     }
-    loggingHandler(strdup("ERROR!"));
+    loggingHandler("ERROR!");
     loggingHandler(out);
     auto addresses = getBacktraceAddresses(
         backtraceOffset - c_backtraceString.length() - 1,

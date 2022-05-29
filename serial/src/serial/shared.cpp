@@ -50,7 +50,6 @@ void DPSerial::sendInstantPacket(Packet p)
 
 void DPSerial::sendPacket(Packet p)
 {
-    std::cout << "sending packet " << p.header.MessageType  << std::endl;
     s_lowPrioSendQueue.push(p);
 }
 

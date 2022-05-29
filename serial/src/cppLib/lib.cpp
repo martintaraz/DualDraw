@@ -48,7 +48,7 @@ void CppLib::poll()
     double positionCoords[2 * 5];
     uint8_t pantoIndex;
 
-    while (!s_receiveQueue.empty())
+    while (s_receiveQueue.size() > 0)
     {
         auto packet = s_receiveQueue.front();
         s_receiveQueue.pop();

@@ -181,17 +181,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named rushhour
+# Target rules for targets named dualDraw
 
 # Build rule for target.
-rushhour: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rushhour
-.PHONY : rushhour
+dualDraw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dualDraw
+.PHONY : dualDraw
 
 # fast build rule for target.
-rushhour/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/build
-.PHONY : rushhour/fast
+dualDraw/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/build
+.PHONY : dualDraw/fast
 
 #=============================================================================
 # Target rules for targets named screen
@@ -1043,7 +1043,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -1051,7 +1051,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -1059,7 +1059,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 protocol/src/protocol/messageType.obj: protocol/src/protocol/messageType.cpp.obj
@@ -1067,7 +1067,7 @@ protocol/src/protocol/messageType.obj: protocol/src/protocol/messageType.cpp.obj
 
 # target to build an object file
 protocol/src/protocol/messageType.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/protocol/src/protocol/messageType.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/protocol/src/protocol/messageType.cpp.obj
 .PHONY : protocol/src/protocol/messageType.cpp.obj
 
 protocol/src/protocol/messageType.i: protocol/src/protocol/messageType.cpp.i
@@ -1075,7 +1075,7 @@ protocol/src/protocol/messageType.i: protocol/src/protocol/messageType.cpp.i
 
 # target to preprocess a source file
 protocol/src/protocol/messageType.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/protocol/src/protocol/messageType.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/protocol/src/protocol/messageType.cpp.i
 .PHONY : protocol/src/protocol/messageType.cpp.i
 
 protocol/src/protocol/messageType.s: protocol/src/protocol/messageType.cpp.s
@@ -1083,7 +1083,7 @@ protocol/src/protocol/messageType.s: protocol/src/protocol/messageType.cpp.s
 
 # target to generate assembly for a file
 protocol/src/protocol/messageType.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/protocol/src/protocol/messageType.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/protocol/src/protocol/messageType.cpp.s
 .PHONY : protocol/src/protocol/messageType.cpp.s
 
 protocol/src/protocol/protocol.obj: protocol/src/protocol/protocol.cpp.obj
@@ -1091,7 +1091,7 @@ protocol/src/protocol/protocol.obj: protocol/src/protocol/protocol.cpp.obj
 
 # target to build an object file
 protocol/src/protocol/protocol.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/protocol/src/protocol/protocol.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/protocol/src/protocol/protocol.cpp.obj
 .PHONY : protocol/src/protocol/protocol.cpp.obj
 
 protocol/src/protocol/protocol.i: protocol/src/protocol/protocol.cpp.i
@@ -1099,7 +1099,7 @@ protocol/src/protocol/protocol.i: protocol/src/protocol/protocol.cpp.i
 
 # target to preprocess a source file
 protocol/src/protocol/protocol.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/protocol/src/protocol/protocol.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/protocol/src/protocol/protocol.cpp.i
 .PHONY : protocol/src/protocol/protocol.cpp.i
 
 protocol/src/protocol/protocol.s: protocol/src/protocol/protocol.cpp.s
@@ -1107,7 +1107,7 @@ protocol/src/protocol/protocol.s: protocol/src/protocol/protocol.cpp.s
 
 # target to generate assembly for a file
 protocol/src/protocol/protocol.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/protocol/src/protocol/protocol.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/protocol/src/protocol/protocol.cpp.s
 .PHONY : protocol/src/protocol/protocol.cpp.s
 
 serial/src/cppLib/lib.obj: serial/src/cppLib/lib.cpp.obj
@@ -1115,7 +1115,7 @@ serial/src/cppLib/lib.obj: serial/src/cppLib/lib.cpp.obj
 
 # target to build an object file
 serial/src/cppLib/lib.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/cppLib/lib.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/cppLib/lib.cpp.obj
 .PHONY : serial/src/cppLib/lib.cpp.obj
 
 serial/src/cppLib/lib.i: serial/src/cppLib/lib.cpp.i
@@ -1123,7 +1123,7 @@ serial/src/cppLib/lib.i: serial/src/cppLib/lib.cpp.i
 
 # target to preprocess a source file
 serial/src/cppLib/lib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/cppLib/lib.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/cppLib/lib.cpp.i
 .PHONY : serial/src/cppLib/lib.cpp.i
 
 serial/src/cppLib/lib.s: serial/src/cppLib/lib.cpp.s
@@ -1131,7 +1131,7 @@ serial/src/cppLib/lib.s: serial/src/cppLib/lib.cpp.s
 
 # target to generate assembly for a file
 serial/src/cppLib/lib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/cppLib/lib.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/cppLib/lib.cpp.s
 .PHONY : serial/src/cppLib/lib.cpp.s
 
 serial/src/crashAnalyzer/analyze.obj: serial/src/crashAnalyzer/analyze.cpp.obj
@@ -1139,7 +1139,7 @@ serial/src/crashAnalyzer/analyze.obj: serial/src/crashAnalyzer/analyze.cpp.obj
 
 # target to build an object file
 serial/src/crashAnalyzer/analyze.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/crashAnalyzer/analyze.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/crashAnalyzer/analyze.cpp.obj
 .PHONY : serial/src/crashAnalyzer/analyze.cpp.obj
 
 serial/src/crashAnalyzer/analyze.i: serial/src/crashAnalyzer/analyze.cpp.i
@@ -1147,7 +1147,7 @@ serial/src/crashAnalyzer/analyze.i: serial/src/crashAnalyzer/analyze.cpp.i
 
 # target to preprocess a source file
 serial/src/crashAnalyzer/analyze.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/crashAnalyzer/analyze.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/crashAnalyzer/analyze.cpp.i
 .PHONY : serial/src/crashAnalyzer/analyze.cpp.i
 
 serial/src/crashAnalyzer/analyze.s: serial/src/crashAnalyzer/analyze.cpp.s
@@ -1155,7 +1155,7 @@ serial/src/crashAnalyzer/analyze.s: serial/src/crashAnalyzer/analyze.cpp.s
 
 # target to generate assembly for a file
 serial/src/crashAnalyzer/analyze.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/crashAnalyzer/analyze.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/crashAnalyzer/analyze.cpp.s
 .PHONY : serial/src/crashAnalyzer/analyze.cpp.s
 
 serial/src/crashAnalyzer/buffer.obj: serial/src/crashAnalyzer/buffer.cpp.obj
@@ -1163,7 +1163,7 @@ serial/src/crashAnalyzer/buffer.obj: serial/src/crashAnalyzer/buffer.cpp.obj
 
 # target to build an object file
 serial/src/crashAnalyzer/buffer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/crashAnalyzer/buffer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/crashAnalyzer/buffer.cpp.obj
 .PHONY : serial/src/crashAnalyzer/buffer.cpp.obj
 
 serial/src/crashAnalyzer/buffer.i: serial/src/crashAnalyzer/buffer.cpp.i
@@ -1171,7 +1171,7 @@ serial/src/crashAnalyzer/buffer.i: serial/src/crashAnalyzer/buffer.cpp.i
 
 # target to preprocess a source file
 serial/src/crashAnalyzer/buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/crashAnalyzer/buffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/crashAnalyzer/buffer.cpp.i
 .PHONY : serial/src/crashAnalyzer/buffer.cpp.i
 
 serial/src/crashAnalyzer/buffer.s: serial/src/crashAnalyzer/buffer.cpp.s
@@ -1179,7 +1179,7 @@ serial/src/crashAnalyzer/buffer.s: serial/src/crashAnalyzer/buffer.cpp.s
 
 # target to generate assembly for a file
 serial/src/crashAnalyzer/buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/crashAnalyzer/buffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/crashAnalyzer/buffer.cpp.s
 .PHONY : serial/src/crashAnalyzer/buffer.cpp.s
 
 serial/src/serial/packet.obj: serial/src/serial/packet.cpp.obj
@@ -1187,7 +1187,7 @@ serial/src/serial/packet.obj: serial/src/serial/packet.cpp.obj
 
 # target to build an object file
 serial/src/serial/packet.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/packet.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/packet.cpp.obj
 .PHONY : serial/src/serial/packet.cpp.obj
 
 serial/src/serial/packet.i: serial/src/serial/packet.cpp.i
@@ -1195,7 +1195,7 @@ serial/src/serial/packet.i: serial/src/serial/packet.cpp.i
 
 # target to preprocess a source file
 serial/src/serial/packet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/packet.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/packet.cpp.i
 .PHONY : serial/src/serial/packet.cpp.i
 
 serial/src/serial/packet.s: serial/src/serial/packet.cpp.s
@@ -1203,7 +1203,7 @@ serial/src/serial/packet.s: serial/src/serial/packet.cpp.s
 
 # target to generate assembly for a file
 serial/src/serial/packet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/packet.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/packet.cpp.s
 .PHONY : serial/src/serial/packet.cpp.s
 
 serial/src/serial/shared.obj: serial/src/serial/shared.cpp.obj
@@ -1211,7 +1211,7 @@ serial/src/serial/shared.obj: serial/src/serial/shared.cpp.obj
 
 # target to build an object file
 serial/src/serial/shared.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/shared.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/shared.cpp.obj
 .PHONY : serial/src/serial/shared.cpp.obj
 
 serial/src/serial/shared.i: serial/src/serial/shared.cpp.i
@@ -1219,7 +1219,7 @@ serial/src/serial/shared.i: serial/src/serial/shared.cpp.i
 
 # target to preprocess a source file
 serial/src/serial/shared.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/shared.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/shared.cpp.i
 .PHONY : serial/src/serial/shared.cpp.i
 
 serial/src/serial/shared.s: serial/src/serial/shared.cpp.s
@@ -1227,7 +1227,7 @@ serial/src/serial/shared.s: serial/src/serial/shared.cpp.s
 
 # target to generate assembly for a file
 serial/src/serial/shared.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/shared.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/shared.cpp.s
 .PHONY : serial/src/serial/shared.cpp.s
 
 serial/src/serial/win.obj: serial/src/serial/win.cpp.obj
@@ -1235,7 +1235,7 @@ serial/src/serial/win.obj: serial/src/serial/win.cpp.obj
 
 # target to build an object file
 serial/src/serial/win.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/win.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/win.cpp.obj
 .PHONY : serial/src/serial/win.cpp.obj
 
 serial/src/serial/win.i: serial/src/serial/win.cpp.i
@@ -1243,7 +1243,7 @@ serial/src/serial/win.i: serial/src/serial/win.cpp.i
 
 # target to preprocess a source file
 serial/src/serial/win.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/win.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/win.cpp.i
 .PHONY : serial/src/serial/win.cpp.i
 
 serial/src/serial/win.s: serial/src/serial/win.cpp.s
@@ -1251,7 +1251,7 @@ serial/src/serial/win.s: serial/src/serial/win.cpp.s
 
 # target to generate assembly for a file
 serial/src/serial/win.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/serial/src/serial/win.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/serial/src/serial/win.cpp.s
 .PHONY : serial/src/serial/win.cpp.s
 
 # Help Target
@@ -1270,6 +1270,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... component
 	@echo ... dom
+	@echo ... dualDraw
 	@echo ... ftxui_example_border
 	@echo ... ftxui_example_border_style
 	@echo ... ftxui_example_button
@@ -1332,7 +1333,6 @@ help:
 	@echo ... ftxui_example_vflow
 	@echo ... ftxui_example_window
 	@echo ... ftxui_example_with_restored_io
-	@echo ... rushhour
 	@echo ... screen
 	@echo ... main.obj
 	@echo ... main.i

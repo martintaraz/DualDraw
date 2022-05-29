@@ -213,7 +213,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=rushhour
+CMAKE_PROJECT_NAME:STATIC=dualDraw
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=2.0.0
@@ -370,6 +370,12 @@ component_LIB_DEPENDS:STATIC=general;dom;
 
 //Dependencies for the target
 dom_LIB_DEPENDS:STATIC=general;screen;
+
+//Value Computed by CMake
+dualDraw_BINARY_DIR:STATIC=C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug
+
+//Value Computed by CMake
+dualDraw_SOURCE_DIR:STATIC=C:/Users/marti/CLionProjects/ftxuiCMAKE
 
 //Value Computed by CMake
 ftxuiCMAKE_BINARY_DIR:STATIC=C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug

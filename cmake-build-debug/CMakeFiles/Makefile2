@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/rushhour.dir/all
+all: CMakeFiles/dualDraw.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,7 +70,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/rushhour.dir/clean
+clean: CMakeFiles/dualDraw.dir/clean
 clean: _deps/ftxui-build/clean
 .PHONY : clean
 
@@ -282,32 +282,32 @@ _deps/ftxui-build/examples/dom/clean: _deps/ftxui-build/examples/dom/CMakeFiles/
 .PHONY : _deps/ftxui-build/examples/dom/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/rushhour.dir
+# Target rules for target CMakeFiles/dualDraw.dir
 
 # All Build rule for target.
-CMakeFiles/rushhour.dir/all: _deps/ftxui-build/CMakeFiles/component.dir/all
-CMakeFiles/rushhour.dir/all: _deps/ftxui-build/CMakeFiles/screen.dir/all
-CMakeFiles/rushhour.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=92,93,94,95,96 "Built target rushhour"
-.PHONY : CMakeFiles/rushhour.dir/all
+CMakeFiles/dualDraw.dir/all: _deps/ftxui-build/CMakeFiles/component.dir/all
+CMakeFiles/dualDraw.dir/all: _deps/ftxui-build/CMakeFiles/screen.dir/all
+CMakeFiles/dualDraw.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31,32 "Built target dualDraw"
+.PHONY : CMakeFiles/dualDraw.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/rushhour.dir/rule: cmake_check_build_system
+CMakeFiles/dualDraw.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 36
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rushhour.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dualDraw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/rushhour.dir/rule
+.PHONY : CMakeFiles/dualDraw.dir/rule
 
 # Convenience name for target.
-rushhour: CMakeFiles/rushhour.dir/rule
-.PHONY : rushhour
+dualDraw: CMakeFiles/dualDraw.dir/rule
+.PHONY : dualDraw
 
 # clean rule for target.
-CMakeFiles/rushhour.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rushhour.dir\build.make CMakeFiles/rushhour.dir/clean
-.PHONY : CMakeFiles/rushhour.dir/clean
+CMakeFiles/dualDraw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dualDraw.dir\build.make CMakeFiles/dualDraw.dir/clean
+.PHONY : CMakeFiles/dualDraw.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/ftxui-build/CMakeFiles/screen.dir
@@ -397,7 +397,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/all: 
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_radiobox.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_radiobox.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=66 "Built target ftxui_example_radiobox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=71 "Built target ftxui_example_radiobox"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -425,7 +425,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/al
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_composition.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_composition.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=41 "Built target ftxui_example_composition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=46 "Built target ftxui_example_composition"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/all
 
 # Build rule for subdir invocation for target.
@@ -453,7 +453,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/all: _d
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_button.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_button.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=30 "Built target ftxui_example_button"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=35 "Built target ftxui_example_button"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/all
 
 # Build rule for subdir invocation for target.
@@ -481,7 +481,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.di
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_canvas_animated.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_canvas_animated.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=32 "Built target ftxui_example_canvas_animated"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=37 "Built target ftxui_example_canvas_animated"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir/all
 
 # Build rule for subdir invocation for target.
@@ -509,7 +509,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.di
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_print_key_press.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_print_key_press.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=65 "Built target ftxui_example_print_key_press"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=70 "Built target ftxui_example_print_key_press"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir/all
 
 # Build rule for subdir invocation for target.
@@ -537,12 +537,12 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_checkbox_in_frame.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_checkbox_in_frame.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=34 "Built target ftxui_example_checkbox_in_frame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target ftxui_example_checkbox_in_frame"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 0
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/rule
@@ -565,7 +565,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/all: 
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_dropdown.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_dropdown.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=43 "Built target ftxui_example_dropdown"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=48 "Built target ftxui_example_dropdown"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/all
 
 # Build rule for subdir invocation for target.
@@ -593,7 +593,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/all: 
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_checkbox.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_checkbox.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=33 "Built target ftxui_example_checkbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=38 "Built target ftxui_example_checkbox"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -621,7 +621,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/al
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_collapsible.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_collapsible.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=35 "Built target ftxui_example_collapsible"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=41 "Built target ftxui_example_collapsible"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/all
 
 # Build rule for subdir invocation for target.
@@ -649,7 +649,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.di
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_flexbox_gallery.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_flexbox_gallery.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=44 "Built target ftxui_example_flexbox_gallery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=49 "Built target ftxui_example_flexbox_gallery"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir/all
 
 # Build rule for subdir invocation for target.
@@ -677,7 +677,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/all: _de
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_focus.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_focus.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=45 "Built target ftxui_example_focus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=50 "Built target ftxui_example_focus"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -705,7 +705,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_tab_horizontal.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_tab_horizontal.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=84 "Built target ftxui_example_tab_horizontal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=89 "Built target ftxui_example_tab_horizontal"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -733,7 +733,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/all: _
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_gallery.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_gallery.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=46 "Built target ftxui_example_gallery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=51 "Built target ftxui_example_gallery"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/all
 
 # Build rule for subdir invocation for target.
@@ -761,7 +761,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/all
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_homescreen.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_homescreen.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=51 "Built target ftxui_example_homescreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=56 "Built target ftxui_example_homescreen"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -789,7 +789,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/a
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_tab_vertical.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_tab_vertical.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=85 "Built target ftxui_example_tab_vertical"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=90 "Built target ftxui_example_tab_vertical"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/all
 
 # Build rule for subdir invocation for target.
@@ -817,7 +817,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_nested_screen.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_nested_screen.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=62 "Built target ftxui_example_nested_screen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=67 "Built target ftxui_example_nested_screen"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -845,7 +845,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/all: _de
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_input.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_input.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=53 "Built target ftxui_example_input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=58 "Built target ftxui_example_input"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/all
 
 # Build rule for subdir invocation for target.
@@ -873,7 +873,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/all: _de
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_maybe.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_maybe.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=54 "Built target ftxui_example_maybe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=59 "Built target ftxui_example_maybe"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -901,7 +901,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_in_frame.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_in_frame.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=58 "Built target ftxui_example_menu_in_frame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=63 "Built target ftxui_example_menu_in_frame"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/all
 
 # Build rule for subdir invocation for target.
@@ -929,7 +929,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/all: _dep
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=55 "Built target ftxui_example_menu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=60 "Built target ftxui_example_menu"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/all
 
 # Build rule for subdir invocation for target.
@@ -957,7 +957,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/all: _de
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu2.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu2.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=56 "Built target ftxui_example_menu2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=61 "Built target ftxui_example_menu2"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -985,7 +985,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.di
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_resizable_split.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_resizable_split.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=69 "Built target ftxui_example_resizable_split"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=74 "Built target ftxui_example_resizable_split"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1013,7 +1013,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/a
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_entries.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_entries.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=57 "Built target ftxui_example_menu_entries"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=62 "Built target ftxui_example_menu_entries"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1041,7 +1041,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/a
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_modal_dialog.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_modal_dialog.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=61 "Built target ftxui_example_modal_dialog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=66 "Built target ftxui_example_modal_dialog"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1069,7 +1069,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_multiple.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_multiple.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=59 "Built target ftxui_example_menu_multiple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=64 "Built target ftxui_example_menu_multiple"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1097,7 +1097,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/all
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_style.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_menu_style.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=60 "Built target ftxui_example_menu_style"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=65 "Built target ftxui_example_menu_style"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1125,7 +1125,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_radiobox_in_frame.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_radiobox_in_frame.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=67 "Built target ftxui_example_radiobox_in_frame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=72 "Built target ftxui_example_radiobox_in_frame"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1153,7 +1153,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/all: 
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_renderer.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_renderer.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=68 "Built target ftxui_example_renderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=73 "Built target ftxui_example_renderer"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1181,7 +1181,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/all: _d
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_slider.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_slider.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=73 "Built target ftxui_example_slider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=78 "Built target ftxui_example_slider"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1209,12 +1209,12 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/all
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_slider_rgb.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_slider_rgb.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=74 "Built target ftxui_example_slider_rgb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target ftxui_example_slider_rgb"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 0
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/rule
@@ -1237,7 +1237,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/all: _d
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_toggle.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_toggle.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=87 "Built target ftxui_example_toggle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=92 "Built target ftxui_example_toggle"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1265,7 +1265,7 @@ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.d
 _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_with_restored_io.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\component\CMakeFiles\ftxui_example_with_restored_io.dir\build.make _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=91 "Built target ftxui_example_with_restored_io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=96 "Built target ftxui_example_with_restored_io"
 .PHONY : _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1292,7 +1292,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/all: _deps/ft
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_border.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_border.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=28 "Built target ftxui_example_border"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=33 "Built target ftxui_example_border"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1319,7 +1319,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/all: _
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_gallery.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_gallery.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=36 "Built target ftxui_example_color_gallery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=42 "Built target ftxui_example_color_gallery"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1346,7 +1346,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/all: _d
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_border_style.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_border_style.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=29 "Built target ftxui_example_border_style"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=34 "Built target ftxui_example_border_style"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1373,7 +1373,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/all:
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_separator_style.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_separator_style.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=71 "Built target ftxui_example_separator_style"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=76 "Built target ftxui_example_separator_style"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1400,7 +1400,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_truecolor_HSV.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_truecolor_HSV.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=38 "Built target ftxui_example_color_truecolor_HSV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=44 "Built target ftxui_example_color_truecolor_HSV"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1427,7 +1427,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.di
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_info_palette256.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_info_palette256.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=37 "Built target ftxui_example_color_info_palette256"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=43 "Built target ftxui_example_color_info_palette256"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1454,7 +1454,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/all: _deps
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_separator.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_separator.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=70 "Built target ftxui_example_separator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=75 "Built target ftxui_example_separator"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1481,12 +1481,12 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_truecolor_RGB.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_color_truecolor_RGB.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target ftxui_example_color_truecolor_RGB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=45 "Built target ftxui_example_color_truecolor_RGB"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 0
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/rule
@@ -1508,7 +1508,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/all: _deps/ftxu
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_dbox.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_dbox.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=42 "Built target ftxui_example_dbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=47 "Built target ftxui_example_dbox"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1535,7 +1535,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/all: _deps/ft
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_canvas.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_canvas.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=31 "Built target ftxui_example_canvas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=36 "Built target ftxui_example_canvas"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1562,7 +1562,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/all: _deps/ftx
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_gauge.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_gauge.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=47 "Built target ftxui_example_gauge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=52 "Built target ftxui_example_gauge"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1589,7 +1589,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/all:
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_package_manager.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_package_manager.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=63 "Built target ftxui_example_package_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=68 "Built target ftxui_example_package_manager"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1616,7 +1616,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/all: _deps/ftx
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_graph.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_graph.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=48 "Built target ftxui_example_graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=53 "Built target ftxui_example_graph"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1643,7 +1643,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/all: _deps
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_html_like.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_html_like.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=52 "Built target ftxui_example_html_like"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=57 "Built target ftxui_example_html_like"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1670,7 +1670,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/all: _deps/f
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_gridbox.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_gridbox.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=49 "Built target ftxui_example_gridbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=54 "Built target ftxui_example_gridbox"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1697,7 +1697,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/all: _deps/ftx
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_hflow.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_hflow.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=50 "Built target ftxui_example_hflow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=55 "Built target ftxui_example_hflow"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1724,7 +1724,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/all: _deps
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_paragraph.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_paragraph.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=64 "Built target ftxui_example_paragraph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=69 "Built target ftxui_example_paragraph"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1751,7 +1751,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/all: _deps/ftxu
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_size.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_size.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=72 "Built target ftxui_example_size"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=77 "Built target ftxui_example_size"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1778,7 +1778,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/all: _deps/f
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_spinner.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_spinner.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=75 "Built target ftxui_example_spinner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=81 "Built target ftxui_example_spinner"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1805,7 +1805,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/all: _de
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_blink.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_blink.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=76 "Built target ftxui_example_style_blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=82 "Built target ftxui_example_style_blink"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1832,7 +1832,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/all: _dep
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_bold.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_bold.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=77 "Built target ftxui_example_style_bold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=83 "Built target ftxui_example_style_bold"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1859,7 +1859,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/all: 
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_inverted.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_inverted.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=82 "Built target ftxui_example_style_inverted"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=87 "Built target ftxui_example_style_inverted"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1886,7 +1886,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/all: _de
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_color.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_color.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=78 "Built target ftxui_example_style_color"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=84 "Built target ftxui_example_style_color"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1913,7 +1913,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/all: _deps/ftx
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_table.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_table.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=86 "Built target ftxui_example_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=91 "Built target ftxui_example_table"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1940,12 +1940,12 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/all: _deps
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_dim.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_dim.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target ftxui_example_style_dim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=85 "Built target ftxui_example_style_dim"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles 0
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/rule
@@ -1967,7 +1967,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/all: _
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_gallery.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_gallery.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=81 "Built target ftxui_example_style_gallery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=86 "Built target ftxui_example_style_gallery"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1994,7 +1994,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/all
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_underlined.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_style_underlined.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=83 "Built target ftxui_example_style_underlined"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=88 "Built target ftxui_example_style_underlined"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2021,7 +2021,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/all: _deps
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_vbox_hbox.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_vbox_hbox.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=88 "Built target ftxui_example_vbox_hbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=93 "Built target ftxui_example_vbox_hbox"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2048,7 +2048,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/all: _deps/ftx
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_vflow.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_vflow.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=89 "Built target ftxui_example_vflow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=94 "Built target ftxui_example_vflow"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2075,7 +2075,7 @@ _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/all: _deps/ft
 _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_window.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ftxui-build\examples\dom\CMakeFiles\ftxui_example_window.dir\build.make _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=90 "Built target ftxui_example_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\CLionProjects\ftxuiCMAKE\cmake-build-debug\CMakeFiles --progress-num=95 "Built target ftxui_example_window"
 .PHONY : _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/all
 
 # Build rule for subdir invocation for target.

@@ -19,7 +19,7 @@ set(CPACK_DEBIAN_PACKAGE_HOMEPAGE_URL "https://github.com/ArthurSonzogni/FTXUI/"
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Arthur Sonzogni")
 set(CPACK_DEBIAN_PACKAGE_VERSION "2.0.0")
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "C:/Users/marti/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/win/share/cmake-3.20/Templates/CPack.GenericDescription.txt")
-set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "rushhour built using CMake")
+set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "dualDraw built using CMake")
 set(CPACK_GENERATOR "7Z;ZIP")
 set(CPACK_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
 set(CPACK_INSTALLED_DIRECTORIES "C:/Users/marti/CLionProjects/ftxuiCMAKE;/")

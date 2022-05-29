@@ -90,7 +90,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/rushhour.dir/DependInfo.cmake"
+  "CMakeFiles/dualDraw.dir/DependInfo.cmake"
   "_deps/ftxui-build/CMakeFiles/screen.dir/DependInfo.cmake"
   "_deps/ftxui-build/CMakeFiles/dom.dir/DependInfo.cmake"
   "_deps/ftxui-build/CMakeFiles/component.dir/DependInfo.cmake"

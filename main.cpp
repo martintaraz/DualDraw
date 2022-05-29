@@ -28,6 +28,9 @@ struct car {
     }
 };
 
+int panto_index = 0;
+
+
 int gridSize = 6;
 
 int courser_x = 0;
@@ -39,7 +42,14 @@ int me_handle_y = 0;
 double raw_me_handle_x = 0;
 double raw_me_handle_y = 0;
 
+double raw_panto_world_bottom_left_x = -98;
+double raw_panto_world_bottom_left_y = -134;
+double raw_panto_world_top_right_x = 2;
+double raw_panto_world_top_right_y = -27;
+
 int car_selected = -1;
+
+int max_collider_id = 2;
 
 std::vector<car> cars;
 
@@ -49,6 +59,7 @@ auto heartbeatReceived = false;
 
 bool move_coursor(int x, int y);
 
+void draw_border_around_grid();
 
 void updateGameHandlePosition(int originX, int originY, int pixelPerCell);
 
@@ -69,7 +80,6 @@ void draw_rect_filled(ftxui::Canvas &c, int origin_x, int origin_y, int target_x
 }
 
 
-
 void draw_rect_filled_2(ftxui::Canvas &c, int origin_x, int origin_y, int target_x, int target_y, Color color) {
     for (int i = origin_x; i < target_x; ++i) {
         for (int j = origin_y; j < target_y; ++j) {
@@ -81,11 +91,11 @@ void draw_rect_filled_2(ftxui::Canvas &c, int origin_x, int origin_y, int target
 void draw_panto_handle(Canvas &c, int origin_x, int origin_y, int pixel_per_cell) {
 
     draw_rect_filled_2(c,
-                     origin_x + pixel_per_cell * me_handle_x + 2,
-                     origin_y + pixel_per_cell * me_handle_y + 4,
-                     origin_x + pixel_per_cell * (me_handle_x + 1) - 1,
-                     origin_y + pixel_per_cell * (me_handle_y + 1) - 2,
-                     Color::Yellow
+                       origin_x + pixel_per_cell * me_handle_x + 2,
+                       origin_y + pixel_per_cell * me_handle_y + 4,
+                       origin_x + pixel_per_cell * (me_handle_x + 1) - 1,
+                       origin_y + pixel_per_cell * (me_handle_y + 1) - 2,
+                       Color::Yellow
     );
 }
 
@@ -124,43 +134,59 @@ void draw_courser(Canvas &canvas, int x, int y, int origin_x, int origin_y, int 
               origin_y + (y + 1) * pixel_per_cell);
 }
 
-void handlePositionUpdates(uint64_t a, double* b) {
-    raw_me_handle_x = *b;
-    b++;
-    raw_me_handle_y = *b;
+void handlePositionUpdates(uint64_t a, double *b) {
+    std::vector<double> tmp;
+    for (int i = 0; i < 10; ++i) {
+        tmp.emplace_back(*b);
+        b++;
+    }
+    raw_me_handle_x = tmp[panto_index * 5];
+    raw_me_handle_y = tmp[panto_index * 5 + 1];
+    std::cout << "position" << std::endl;
 }
 
 
 void handleSync(uint64_t a) {
     SendSyncAck(handle);
+    //std::cout << "SynAck" << std::endl;
 }
 
 
 void handleHeartbeat(uint64_t a) {
     heartbeatReceived = true;
     SendHeartbeatAck(handle);
+    std::cout << "heartbeatAck" << std::endl;
 }
 
 
-void handleLog (char* data) {
+void handleLog(char *data) {
     // std::cout << data << std::endl;
+}
+
+void handleTransition(uint8_t) {
+//    std::cout << "transition handler called... no idea what to do next" << std::endl;
 }
 
 int main(int argc, const char *argv[]) {
 
     char *serialPort = strdup(R"(\\.\COM5)");
     handle = Open(serialPort);
+    if (handle == 0) {
+        std::cout << "Connection to dualPanto could not be established" << std::endl;
+    }
+
     std::cout << std::to_string(handle);
     SetPositionHandler(handlePositionUpdates);
     SetSyncHandler(handleSync);
     SetHeartbeatHandler(handleHeartbeat);
     SetLoggingHandler(handleLog);
+    SetTransitionHandler(handleTransition);
+
 
     while (!heartbeatReceived) {
         Poll(handle);
     }
 
-    // CreateObstacle(handle, 0, 0, 0.0f, 50.0f, 0.0f, -100.0f);
 
     auto _car1 = car();
     _car1.pos_x = 0;
@@ -183,6 +209,20 @@ int main(int argc, const char *argv[]) {
     _car3.size_y = 1;
     cars.emplace_back(_car3);
 
+    CreateObstacle(handle, panto_index, max_collider_id,
+                   raw_panto_world_bottom_left_x,
+                   raw_panto_world_bottom_left_y,
+                   raw_panto_world_top_right_x,
+                   raw_panto_world_top_right_y);
+    EnableObstacle(handle, panto_index, max_collider_id);
+    max_collider_id++;
+
+
+
+
+    // do not do this in the loop since it will flood the panto with colliders
+    // draw_border_around_grid();
+
     auto render_game = Renderer([&] {
         Poll(handle);
         ftxui::Canvas c = ftxui::Canvas(80, 80);
@@ -190,7 +230,6 @@ int main(int argc, const char *argv[]) {
         int originY = 20;
         int pixelPerCell = 8;
         draw_grid(c, originX, originY, gridSize, gridSize, pixelPerCell);
-
 
         for (auto _car: cars) {
             draw_car(c, _car, originX, originY, pixelPerCell);
@@ -253,14 +292,11 @@ int main(int argc, const char *argv[]) {
 
     auto s = ScreenInteractive::FitComponent();
     auto exit_button = Button("exit", s.ExitLoopClosure());
-    // TODO implement restart
-    auto restart_button = Button("restart", s.ExitLoopClosure());
     auto menu = Container::Horizontal(
             {
-                exit_button,
-                restart_button,
+                    exit_button,
             }
-            );
+    );
 
 
     auto component = Container::Vertical({
@@ -278,14 +314,59 @@ int main(int argc, const char *argv[]) {
                border;
     });
     s.Loop(component_renderer);
+}
 
-    Close(handle);
+double panto_to_grid_x(double panto_x) {
+    return (panto_x - raw_panto_world_bottom_left_x) / (raw_panto_world_top_right_x - raw_panto_world_bottom_left_x) *
+           gridSize;
+}
+
+double panto_to_grid_y(double panto_y) {
+    // y-axis is inverted, therefore subtract
+    return gridSize - (raw_me_handle_y - raw_panto_world_bottom_left_y) /
+                      (raw_panto_world_top_right_y - raw_panto_world_bottom_left_y) * gridSize;
+}
+
+
+void draw_border_around_grid() {
+    CreateObstacle(handle, panto_index, max_collider_id,
+                   raw_panto_world_bottom_left_x,
+                   raw_panto_world_bottom_left_y,
+                   raw_panto_world_top_right_x,
+                   raw_panto_world_bottom_left_y);
+    EnableObstacle(handle, panto_index, max_collider_id);
+    max_collider_id++;
+    return;
+
+    CreateObstacle(handle, panto_index, max_collider_id,
+                   raw_panto_world_top_right_x,
+                   raw_panto_world_bottom_left_y,
+                   raw_panto_world_top_right_x,
+                   raw_panto_world_top_right_y);
+    EnableObstacle(handle, panto_index, max_collider_id);
+    max_collider_id++;
+
+    CreateObstacle(handle, panto_index, max_collider_id,
+                   raw_panto_world_top_right_x,
+                   raw_panto_world_top_right_y,
+                   raw_panto_world_bottom_left_x,
+                   raw_panto_world_top_right_y);
+    EnableObstacle(handle, panto_index, max_collider_id);
+    max_collider_id++;
+
+    CreateObstacle(handle, panto_index, max_collider_id,
+                   raw_panto_world_bottom_left_x,
+                   raw_panto_world_top_right_y,
+                   raw_panto_world_bottom_left_x,
+                   raw_panto_world_bottom_left_y);
+    EnableObstacle(handle, panto_index, max_collider_id);
+    max_collider_id++;
 }
 
 void updateGameHandlePosition(int originX, int originY, int pixelPerCell) {
-    me_handle_x = int(raw_me_handle_x / 20) +  3;
-    me_handle_y =  -1 *  int(raw_me_handle_y / 20);
-    std::cout << raw_me_handle_x << " " << raw_me_handle_y;
+    me_handle_x = panto_to_grid_x(raw_me_handle_x);
+    me_handle_y = panto_to_grid_y(raw_me_handle_y);
+//    std::cout << raw_me_handle_x << " " << raw_me_handle_y << " " << me_handle_x << " " << me_handle_y;
 }
 
 bool move_coursor(int x, int y) {

@@ -57,6 +57,8 @@ uint64_t handle;
 
 auto heartbeatReceived = false;
 
+auto protocolDebug = false;
+
 bool move_coursor(int x, int y);
 
 void draw_border_around_grid();
@@ -142,7 +144,8 @@ void handlePositionUpdates(uint64_t a, double *b) {
     }
     raw_me_handle_x = tmp[panto_index * 5];
     raw_me_handle_y = tmp[panto_index * 5 + 1];
-    std::cout << "position" << std::endl;
+    if (protocolDebug)
+        std::cout << "position" << std::endl;
 }
 
 
@@ -155,7 +158,8 @@ void handleSync(uint64_t a) {
 void handleHeartbeat(uint64_t a) {
     heartbeatReceived = true;
     SendHeartbeatAck(handle);
-    std::cout << "heartbeatAck" << std::endl;
+    if (protocolDebug)
+        std::cout << "heartbeatAck" << std::endl;
 }
 
 

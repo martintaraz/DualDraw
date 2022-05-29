@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\cppLib\lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\crashAnalyzer\analyze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\crashAnalyzer\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\serial\shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\serial\packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\protocol\src\protocol\protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\protocol\src\protocol\messageType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\serial\win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\include\libInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\generated\serial_export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\include\serial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\include\packet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\include\crashAnalyzer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\protocol\include\protocol\protocol.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\protocol\include\protocol\header.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\protocol\include\protocol\messageType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{74490DD9-8880-3F82-900D-42724ADF2775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8990B16-CF64-348E-82E5-1C969A6AC5F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

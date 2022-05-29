@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\cppLibBuild\CMakeFiles\270fe961d87d97b63e16c3f723b32663\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{40E661EF-718C-3D0C-9324-50F159698D3A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

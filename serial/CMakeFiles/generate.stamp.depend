@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/exportheader.cmake.in
+C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/3.22.0-rc3/CMakeCXXCompiler.cmake
+C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/3.22.0-rc3/CMakeRCCompiler.cmake
+C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/3.22.0-rc3/CMakeSystem.cmake
+C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeLists.txt

@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeLists.txt
+  lib.cpp
+  analyze.cpp
+C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\crashAnalyzer\analyze.cpp(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\crashAnalyzer\analyze.cpp(147): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\src\crashAnalyzer\analyze.cpp(179): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+  buffer.cpp
+  shared.cpp
+  packet.cpp
+  protocol.cpp
+  messageType.cpp
+  win.cpp
+  Generating Code...
+     Creating library C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/Debug/serial.lib and object C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/Debug/serial.exp
+  serial.vcxproj -> C:\Users\marti\Documents\GitHub\dualpantoframework\utils\serial\Debug\serial.dll

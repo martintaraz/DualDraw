@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc ftxui-screen.a CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe ftxui-screen.a

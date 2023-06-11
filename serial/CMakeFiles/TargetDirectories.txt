@@ -1,4 +1,0 @@
-C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/serial.dir
-C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/INSTALL.dir
-C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/ALL_BUILD.dir
-C:/Users/marti/Documents/GitHub/dualpantoframework/utils/serial/CMakeFiles/ZERO_CHECK.dir

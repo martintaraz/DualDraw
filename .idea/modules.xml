@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ftxuiCMAKE.iml" filepath="$PROJECT_DIR$/.idea/ftxuiCMAKE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DualDraw.iml" filepath="$PROJECT_DIR$/.idea/DualDraw.iml" />
     </modules>
   </component>
 </project>

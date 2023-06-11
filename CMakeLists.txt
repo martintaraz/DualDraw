@@ -18,12 +18,14 @@ endif()
 
 
 # link against serial and protocol
+# TODO BIS change this to your path to dualpantoframework
+set(dualpantoframework_base_dir ../dualpantoframework)
 
-set(serial_source_dir serial/src)
-set(protocol_source_dir protocol/src/protocol)
-set(serial_include_dir serial/include)
-set(protocol_include_dir protocol/include)
-set(base_include_dir serial/include/serial)
+set(serial_source_dir ${dualpantoframework_base_dir}/utils/serial/src)
+set(protocol_source_dir ${dualpantoframework_base_dir}/utils/protocol/src/protocol)
+set(serial_include_dir ${dualpantoframework_base_dir}/utils/serial/include)
+set(protocol_include_dir ${dualpantoframework_base_dir}/utils/protocol/include)
+set(base_include_dir ${dualpantoframework_base_dir}/utils/serial)
 
 set(export_header
         ${generated_header_dir}/serial_export.hpp)
@@ -83,6 +85,13 @@ endif()
 
 
 add_executable(dualDraw ${sources})
+
+if(MSVC)
+  target_compile_options(dualDraw PRIVATE /W4)
+else()
+  target_compile_options(dualDraw PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
 
 target_include_directories(dualDraw PRIVATE src serial protocol)
 

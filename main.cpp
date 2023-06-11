@@ -2,7 +2,8 @@
 #include <ftxui/component/screen_interactive.hpp>
 #include <ftxui/component/component_options.hpp>
 
-#include "serial/include/libInterface.hpp"
+// TODO BIS change this to your path to dualpantoframework
+#include "../dualpantoframework/utils/serial/include/libInterface.hpp"
 
 using namespace ftxui;
 
@@ -139,7 +140,6 @@ int main(int argc, const char *argv[]) {
     SetSyncHandler(handleSync);
     SetHeartbeatHandler(handleHeartbeat);
     SetLoggingHandler(handleLog);
-
 
     std::thread pollThread(PollLoop);
     std::thread drawThread(DrawLoop);

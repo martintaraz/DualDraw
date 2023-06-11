@@ -1,7 +1,6 @@
 #include <iostream>
 #include <ftxui/component/screen_interactive.hpp>
 #include <ftxui/component/component_options.hpp>
-#include <ftxui/component/component.hpp>
 
 #include "serial/include/libInterface.hpp"
 
@@ -16,6 +15,8 @@ double raw_panto_world_top_right_y = -27;
 
 double canvas_width = 100;
 double canvas_height = 100;
+
+Color::Palette16 drawingColor = Color::Red;
 
 uint64_t handle;
 
@@ -56,14 +57,15 @@ double panto_to_canvas_y(double panto_y) {
 void draw_pixels(Canvas &c) {
     for (int i = 0; i < pixels.size(); ++i) {
         for (int j = 0; j < pixels[i].size(); ++j) {
-            if (pixels[i][j])
-                c.DrawPoint(i, j, true, Color::Red);
+            if (pixels[i][j]) {
+                c.DrawPoint(i, j, true, drawingColor);
+            }
         }
     }
 }
 
 void draw_pixel(double x, double y) {
-    pixels[x][y] = true;
+    pixels[(int) x][(int) y] = true;
 }
 
 
@@ -110,8 +112,10 @@ void PollLoop() {
 
 void DrawLoop() {
     while (!stop) {
-        ftxui::Canvas c = ftxui::Canvas(canvas_width, canvas_height);
+        ftxui::Canvas c = ftxui::Canvas((int) canvas_width, (int) canvas_height);
         draw_pixels(c);
+        // TODO BIS: Bonus Task: have a look at the FTXUI documentation https://arthursonzogni.github.io/FTXUI/ and implement a simple color changer
+
         auto document = canvas(&c) | border;
 
         auto screen = Screen::Create(Dimension::Fit(document));
@@ -125,7 +129,7 @@ int main(int argc, const char *argv[]) {
     initPixels();
 
     // TODO BIS: change this to your devices com port
-    char *serialPort = strdup(R"(\\.\COM5)");
+    char *serialPort = strdup(R"(\\.\COM3)");
     handle = Open(serialPort);
     if (handle == 0) {
         std::cout << "Connection to dualPanto could not be established" << std::endl;

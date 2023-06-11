@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_color_truecolor_HSV.dir/color_truecolor_HSV.cpp.obj"
+  "CMakeFiles/ftxui_example_color_truecolor_HSV.dir/color_truecolor_HSV.cpp.obj.d"
   "ftxui_example_color_truecolor_HSV.exe"
   "ftxui_example_color_truecolor_HSV.exe.manifest"
   "ftxui_example_color_truecolor_HSV.pdb"

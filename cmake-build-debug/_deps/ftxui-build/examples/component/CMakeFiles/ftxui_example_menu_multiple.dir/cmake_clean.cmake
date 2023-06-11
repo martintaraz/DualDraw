@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_menu_multiple.dir/menu_multiple.cpp.obj"
+  "CMakeFiles/ftxui_example_menu_multiple.dir/menu_multiple.cpp.obj.d"
   "ftxui_example_menu_multiple.exe"
   "ftxui_example_menu_multiple.exe.manifest"
   "ftxui_example_menu_multiple.pdb"

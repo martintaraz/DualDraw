@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_vflow.dir/vflow.cpp.obj"
+  "CMakeFiles/ftxui_example_vflow.dir/vflow.cpp.obj.d"
   "ftxui_example_vflow.exe"
   "ftxui_example_vflow.exe.manifest"
   "ftxui_example_vflow.pdb"

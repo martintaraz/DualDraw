@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_paragraph.dir/paragraph.cpp.obj"
+  "CMakeFiles/ftxui_example_paragraph.dir/paragraph.cpp.obj.d"
   "ftxui_example_paragraph.exe"
   "ftxui_example_paragraph.exe.manifest"
   "ftxui_example_paragraph.pdb"

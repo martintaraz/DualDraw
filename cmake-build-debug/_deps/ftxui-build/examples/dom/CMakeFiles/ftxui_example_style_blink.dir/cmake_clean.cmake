@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_style_blink.dir/style_blink.cpp.obj"
+  "CMakeFiles/ftxui_example_style_blink.dir/style_blink.cpp.obj.d"
   "ftxui_example_style_blink.exe"
   "ftxui_example_style_blink.exe.manifest"
   "ftxui_example_style_blink.pdb"

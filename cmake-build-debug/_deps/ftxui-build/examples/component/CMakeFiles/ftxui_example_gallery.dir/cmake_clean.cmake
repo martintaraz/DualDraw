@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_gallery.dir/gallery.cpp.obj"
+  "CMakeFiles/ftxui_example_gallery.dir/gallery.cpp.obj.d"
   "ftxui_example_gallery.exe"
   "ftxui_example_gallery.exe.manifest"
   "ftxui_example_gallery.pdb"

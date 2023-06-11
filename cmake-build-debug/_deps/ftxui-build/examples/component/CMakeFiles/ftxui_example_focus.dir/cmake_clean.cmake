@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_focus.dir/focus.cpp.obj"
+  "CMakeFiles/ftxui_example_focus.dir/focus.cpp.obj.d"
   "ftxui_example_focus.exe"
   "ftxui_example_focus.exe.manifest"
   "ftxui_example_focus.pdb"

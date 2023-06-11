@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_nested_screen.dir/nested_screen.cpp.obj"
+  "CMakeFiles/ftxui_example_nested_screen.dir/nested_screen.cpp.obj.d"
   "ftxui_example_nested_screen.exe"
   "ftxui_example_nested_screen.exe.manifest"
   "ftxui_example_nested_screen.pdb"

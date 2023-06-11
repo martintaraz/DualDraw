@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_homescreen.dir/homescreen.cpp.obj"
+  "CMakeFiles/ftxui_example_homescreen.dir/homescreen.cpp.obj.d"
   "ftxui_example_homescreen.exe"
   "ftxui_example_homescreen.exe.manifest"
   "ftxui_example_homescreen.pdb"

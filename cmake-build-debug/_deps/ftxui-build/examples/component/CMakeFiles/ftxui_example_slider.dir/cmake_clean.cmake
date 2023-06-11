@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_slider.dir/slider.cpp.obj"
+  "CMakeFiles/ftxui_example_slider.dir/slider.cpp.obj.d"
   "ftxui_example_slider.exe"
   "ftxui_example_slider.exe.manifest"
   "ftxui_example_slider.pdb"

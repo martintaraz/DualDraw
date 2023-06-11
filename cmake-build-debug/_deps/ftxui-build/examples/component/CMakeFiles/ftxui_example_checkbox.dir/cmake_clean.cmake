@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_checkbox.dir/checkbox.cpp.obj"
+  "CMakeFiles/ftxui_example_checkbox.dir/checkbox.cpp.obj.d"
   "ftxui_example_checkbox.exe"
   "ftxui_example_checkbox.exe.manifest"
   "ftxui_example_checkbox.pdb"

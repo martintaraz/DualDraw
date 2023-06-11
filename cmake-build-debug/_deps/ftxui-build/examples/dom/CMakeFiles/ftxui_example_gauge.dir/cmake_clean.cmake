@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_gauge.dir/gauge.cpp.obj"
+  "CMakeFiles/ftxui_example_gauge.dir/gauge.cpp.obj.d"
   "ftxui_example_gauge.exe"
   "ftxui_example_gauge.exe.manifest"
   "ftxui_example_gauge.pdb"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_window.dir/window.cpp.obj"
+  "CMakeFiles/ftxui_example_window.dir/window.cpp.obj.d"
   "ftxui_example_window.exe"
   "ftxui_example_window.exe.manifest"
   "ftxui_example_window.pdb"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_graph.dir/graph.cpp.obj"
+  "CMakeFiles/ftxui_example_graph.dir/graph.cpp.obj.d"
   "ftxui_example_graph.exe"
   "ftxui_example_graph.exe.manifest"
   "ftxui_example_graph.pdb"

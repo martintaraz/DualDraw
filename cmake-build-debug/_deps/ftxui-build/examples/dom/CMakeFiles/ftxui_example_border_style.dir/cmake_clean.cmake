@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_border_style.dir/border_style.cpp.obj"
+  "CMakeFiles/ftxui_example_border_style.dir/border_style.cpp.obj.d"
   "ftxui_example_border_style.exe"
   "ftxui_example_border_style.exe.manifest"
   "ftxui_example_border_style.pdb"

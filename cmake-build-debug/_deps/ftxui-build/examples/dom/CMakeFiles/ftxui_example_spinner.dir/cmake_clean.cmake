@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_spinner.dir/spinner.cpp.obj"
+  "CMakeFiles/ftxui_example_spinner.dir/spinner.cpp.obj.d"
   "ftxui_example_spinner.exe"
   "ftxui_example_spinner.exe.manifest"
   "ftxui_example_spinner.pdb"

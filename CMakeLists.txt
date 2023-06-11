@@ -68,8 +68,8 @@ if (WIN32)
     message(STATUS "firmware (abs): ${firmware_abs}")
     # set defines
     add_compile_definitions(WINDOWS)
-    add_compile_definitions(ADDR2LINE_PATH="${addr2line}")
-    add_compile_definitions(FIRMWARE_PATH="${firmware_abs}")
+    #add_compile_definitions(ADDR2LINE_PATH="${addr2line}")
+    #add_compile_definitions(FIRMWARE_PATH="${firmware_abs}")
     set(sources
             ${shared_sources}
             ${serial_source_dir}/serial/win.cpp)

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_renderer.dir/renderer.cpp.obj"
+  "CMakeFiles/ftxui_example_renderer.dir/renderer.cpp.obj.d"
   "ftxui_example_renderer.exe"
   "ftxui_example_renderer.exe.manifest"
   "ftxui_example_renderer.pdb"

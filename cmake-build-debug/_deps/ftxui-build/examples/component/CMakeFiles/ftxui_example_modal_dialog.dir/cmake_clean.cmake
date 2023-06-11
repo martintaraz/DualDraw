@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_modal_dialog.dir/modal_dialog.cpp.obj"
+  "CMakeFiles/ftxui_example_modal_dialog.dir/modal_dialog.cpp.obj.d"
   "ftxui_example_modal_dialog.exe"
   "ftxui_example_modal_dialog.exe.manifest"
   "ftxui_example_modal_dialog.pdb"

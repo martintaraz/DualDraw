@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_style_dim.dir/style_dim.cpp.obj"
+  "CMakeFiles/ftxui_example_style_dim.dir/style_dim.cpp.obj.d"
   "ftxui_example_style_dim.exe"
   "ftxui_example_style_dim.exe.manifest"
   "ftxui_example_style_dim.pdb"

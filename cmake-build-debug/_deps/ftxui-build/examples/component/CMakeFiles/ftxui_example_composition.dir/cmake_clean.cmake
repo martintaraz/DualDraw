@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_composition.dir/composition.cpp.obj"
+  "CMakeFiles/ftxui_example_composition.dir/composition.cpp.obj.d"
   "ftxui_example_composition.exe"
   "ftxui_example_composition.exe.manifest"
   "ftxui_example_composition.pdb"

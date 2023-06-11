@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/dom/color_truecolor_HSV.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/dom/color_truecolor_HSV.cpp
 ftxui/dom/elements.hpp
 -
 ftxui/screen/screen.hpp
@@ -16,9 +16,9 @@ memory
 utility
 -
 ftxui/dom/node.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/dom/ftxui/dom/node.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/dom/ftxui/dom/node.hpp
 ftxui/screen/color.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/dom/ftxui/screen/color.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/dom/ftxui/screen/color.hpp
 
 _deps/ftxui-src/include/ftxui/dom/canvas.hpp
 stddef.h

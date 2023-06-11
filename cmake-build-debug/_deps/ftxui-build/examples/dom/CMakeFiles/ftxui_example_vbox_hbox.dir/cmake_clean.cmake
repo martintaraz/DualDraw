@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_vbox_hbox.dir/vbox_hbox.cpp.obj"
+  "CMakeFiles/ftxui_example_vbox_hbox.dir/vbox_hbox.cpp.obj.d"
   "ftxui_example_vbox_hbox.exe"
   "ftxui_example_vbox_hbox.exe.manifest"
   "ftxui_example_vbox_hbox.pdb"

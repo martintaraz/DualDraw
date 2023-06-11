@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_checkbox_in_frame.dir/checkbox_in_frame.cpp.obj"
+  "CMakeFiles/ftxui_example_checkbox_in_frame.dir/checkbox_in_frame.cpp.obj.d"
   "ftxui_example_checkbox_in_frame.exe"
   "ftxui_example_checkbox_in_frame.exe.manifest"
   "ftxui_example_checkbox_in_frame.pdb"

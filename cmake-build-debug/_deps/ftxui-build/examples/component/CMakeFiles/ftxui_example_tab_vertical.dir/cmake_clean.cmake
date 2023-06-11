@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_tab_vertical.dir/tab_vertical.cpp.obj"
+  "CMakeFiles/ftxui_example_tab_vertical.dir/tab_vertical.cpp.obj.d"
   "ftxui_example_tab_vertical.exe"
   "ftxui_example_tab_vertical.exe.manifest"
   "ftxui_example_tab_vertical.pdb"

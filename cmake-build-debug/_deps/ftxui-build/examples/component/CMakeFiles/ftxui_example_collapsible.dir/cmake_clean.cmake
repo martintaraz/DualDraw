@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_collapsible.dir/collapsible.cpp.obj"
+  "CMakeFiles/ftxui_example_collapsible.dir/collapsible.cpp.obj.d"
   "ftxui_example_collapsible.exe"
   "ftxui_example_collapsible.exe.manifest"
   "ftxui_example_collapsible.pdb"

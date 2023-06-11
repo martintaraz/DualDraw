@@ -1,9 +1,0 @@
-C:\Users\marti\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\marti\CLionProjects\ftxuiCMAKE
--- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
-Doxygen need to be installed to generate the doxygen documentation
--- addr2line: C:\\Users\\marti\\.platformio\\packages\\toolchain-xtensa32\\bin\\xtensa-esp32-elf-addr2line.exe
--- firmware (rel): ..\..\firmware\.pio\build\esp32dev\firmware.elf
--- firmware (abs): C:\\Users\\marti\\firmware\\.pio\\build\\esp32dev\\firmware.elf
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug

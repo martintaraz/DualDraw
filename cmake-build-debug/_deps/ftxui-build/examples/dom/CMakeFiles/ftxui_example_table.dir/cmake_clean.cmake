@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_table.dir/table.cpp.obj"
+  "CMakeFiles/ftxui_example_table.dir/table.cpp.obj.d"
   "ftxui_example_table.exe"
   "ftxui_example_table.exe.manifest"
   "ftxui_example_table.pdb"

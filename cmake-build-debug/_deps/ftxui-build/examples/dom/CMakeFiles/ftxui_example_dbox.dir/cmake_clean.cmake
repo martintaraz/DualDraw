@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_dbox.dir/dbox.cpp.obj"
+  "CMakeFiles/ftxui_example_dbox.dir/dbox.cpp.obj.d"
   "ftxui_example_dbox.exe"
   "ftxui_example_dbox.exe.manifest"
   "ftxui_example_dbox.pdb"

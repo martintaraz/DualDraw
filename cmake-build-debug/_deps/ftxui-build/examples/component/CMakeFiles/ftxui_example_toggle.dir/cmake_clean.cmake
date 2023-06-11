@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_toggle.dir/toggle.cpp.obj"
+  "CMakeFiles/ftxui_example_toggle.dir/toggle.cpp.obj.d"
   "ftxui_example_toggle.exe"
   "ftxui_example_toggle.exe.manifest"
   "ftxui_example_toggle.pdb"

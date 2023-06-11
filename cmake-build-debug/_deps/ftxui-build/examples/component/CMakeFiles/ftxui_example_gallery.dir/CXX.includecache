@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/component/gallery.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/component/gallery.cpp
 functional
 -
 memory
@@ -16,15 +16,15 @@ string
 vector
 -
 ftxui/component/captured_mouse.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/captured_mouse.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/captured_mouse.hpp
 ftxui/component/component.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/component.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/component.hpp
 ftxui/component/component_base.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/component_base.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/component_base.hpp
 ftxui/component/screen_interactive.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/screen_interactive.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/component/screen_interactive.hpp
 ftxui/dom/elements.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/dom/elements.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/examples/component/ftxui/dom/elements.hpp
 
 _deps/ftxui-src/include/ftxui/component/captured_mouse.hpp
 memory

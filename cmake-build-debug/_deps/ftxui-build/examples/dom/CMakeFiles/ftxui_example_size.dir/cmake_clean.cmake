@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_size.dir/size.cpp.obj"
+  "CMakeFiles/ftxui_example_size.dir/size.cpp.obj.d"
   "ftxui_example_size.exe"
   "ftxui_example_size.exe.manifest"
   "ftxui_example_size.pdb"

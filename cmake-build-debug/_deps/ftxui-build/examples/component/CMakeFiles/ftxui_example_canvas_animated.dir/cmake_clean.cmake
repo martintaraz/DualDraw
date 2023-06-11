@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_canvas_animated.dir/canvas_animated.cpp.obj"
+  "CMakeFiles/ftxui_example_canvas_animated.dir/canvas_animated.cpp.obj.d"
   "ftxui_example_canvas_animated.exe"
   "ftxui_example_canvas_animated.exe.manifest"
   "ftxui_example_canvas_animated.pdb"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_radiobox.dir/radiobox.cpp.obj"
+  "CMakeFiles/ftxui_example_radiobox.dir/radiobox.cpp.obj.d"
   "ftxui_example_radiobox.exe"
   "ftxui_example_radiobox.exe.manifest"
   "ftxui_example_radiobox.pdb"

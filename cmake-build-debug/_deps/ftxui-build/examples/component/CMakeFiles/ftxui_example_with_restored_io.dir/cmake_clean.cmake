@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_with_restored_io.dir/with_restored_io.cpp.obj"
+  "CMakeFiles/ftxui_example_with_restored_io.dir/with_restored_io.cpp.obj.d"
   "ftxui_example_with_restored_io.exe"
   "ftxui_example_with_restored_io.exe.manifest"
   "ftxui_example_with_restored_io.pdb"

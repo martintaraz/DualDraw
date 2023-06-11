@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_html_like.dir/html_like.cpp.obj"
+  "CMakeFiles/ftxui_example_html_like.dir/html_like.cpp.obj.d"
   "ftxui_example_html_like.exe"
   "ftxui_example_html_like.exe.manifest"
   "ftxui_example_html_like.pdb"

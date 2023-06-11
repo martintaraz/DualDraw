@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/box.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/box.cpp
 ftxui/screen/box.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/box.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/box.hpp
 algorithm
 -
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color.cpp
 ftxui/screen/color.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color.hpp
 cassert
 -
 ftxui/screen/color_info.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color_info.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color_info.hpp
 ftxui/screen/terminal.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/terminal.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/terminal.hpp
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color_info.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color_info.cpp
 ftxui/screen/color_info.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color_info.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color_info.hpp
 ftxui/screen/color.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/color.hpp
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/screen.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/screen.cpp
 iostream
 -
 map
@@ -40,17 +40,17 @@ sstream
 utility
 -
 ftxui/screen/screen.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/screen.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/screen.hpp
 ftxui/screen/string.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/string.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/string.hpp
 ftxui/screen/terminal.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/terminal.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/terminal.hpp
 Windows.h
 -
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/string.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/string.cpp
 ftxui/screen/string.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/string.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/string.hpp
 stddef.h
 -
 stdint.h
@@ -62,15 +62,15 @@ locale
 string
 -
 ftxui/screen/deprecated.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/deprecated.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/deprecated.hpp
 
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/terminal.cpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/terminal.cpp
 cstdlib
 -
 string
 -
 ftxui/screen/terminal.hpp
-C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/terminal.hpp
+C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/ftxui/screen/terminal.hpp
 Windows.h
 -
 sys/ioctl.h

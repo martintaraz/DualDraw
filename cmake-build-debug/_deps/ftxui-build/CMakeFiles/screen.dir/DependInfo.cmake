@@ -4,34 +4,16 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/box.cpp" "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj"
-  "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color.cpp" "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj"
-  "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color_info.cpp" "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj"
-  "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/screen.cpp" "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj"
-  "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/string.cpp" "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj"
-  "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/terminal.cpp" "C:/Users/marti/CLionProjects/ftxuiCMAKE/cmake-build-debug/_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "FTXUI_MICROSOFT_TERMINAL_FALLBACK"
-  "UNICODE"
-  "_UNICODE"
-  )
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "_deps/ftxui-src/include"
-  "_deps/ftxui-src/src"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/box.cpp" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj" "gcc" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj.d"
+  "C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color.cpp" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj" "gcc" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj.d"
+  "C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/color_info.cpp" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj" "gcc" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj.d"
+  "C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/screen.cpp" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj" "gcc" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj.d"
+  "C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/string.cpp" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj" "gcc" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj.d"
+  "C:/Users/marti/Github/DualDraw/cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/terminal.cpp" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj" "gcc" "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj.d"
   )
 
 # Targets to which this target links.

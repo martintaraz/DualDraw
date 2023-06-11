@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_print_key_press.dir/print_key_press.cpp.obj"
+  "CMakeFiles/ftxui_example_print_key_press.dir/print_key_press.cpp.obj.d"
   "ftxui_example_print_key_press.exe"
   "ftxui_example_print_key_press.exe.manifest"
   "ftxui_example_print_key_press.pdb"

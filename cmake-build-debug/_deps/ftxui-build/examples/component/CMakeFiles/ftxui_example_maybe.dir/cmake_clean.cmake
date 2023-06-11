@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ftxui_example_maybe.dir/maybe.cpp.obj"
+  "CMakeFiles/ftxui_example_maybe.dir/maybe.cpp.obj.d"
   "ftxui_example_maybe.exe"
   "ftxui_example_maybe.exe.manifest"
   "ftxui_example_maybe.pdb"

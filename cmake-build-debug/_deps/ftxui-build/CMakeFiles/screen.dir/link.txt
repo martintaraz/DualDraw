@@ -1,2 +1,0 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc ftxui-screen.a CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ranlib.exe ftxui-screen.a
